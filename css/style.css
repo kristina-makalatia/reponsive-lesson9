@@ -1,0 +1,124 @@
+/*Base classes*/
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	background: yellow;
+}
+
+/*Header*/
+.header-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo img {
+	height: 60px;
+}
+.logo {
+	margin-left: 100px;
+}
+.nav-ul {
+	display: flex;
+}
+.right-block {
+	display: flex;
+}
+.burger-icon {
+	color: red;
+	font-size: 30px;
+	display: none;
+}
+
+/*Image block*/
+.image-wraper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.image-box img {
+	width: 270px;
+}
+
+/*Video block*/
+.video-wraper {
+	display: flex;
+	justify-content: space-between;
+	/*flex-wrap: wrap;*/
+
+}
+.box1 {
+	background-color: blue;
+	width: 200px;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box2 {
+	width:  200px;
+	height: 600px;
+}
+.video-iframe {
+	width: 100%;
+	height: 100%;
+}
+
+/*Icon*/
+.fa-facebook-f{
+	color: blue;
+	font-size: 30px;
+}
+.icon-fb:hover {
+	color: aqua;
+}
+.icon-youtube {
+	font-size: 30px;
+	color: red;
+}
+.icon-youtube:hover {
+	color: green;
+}
+
+
+/*Form*/
+.form-wraper {
+	max-width: 600px;
+	width: 100%;
+}
+.textarea-wraper {
+	resize: none;
+	height: 160px;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid blue;
+}
+.input-wraper {
+	width: 100%;
+	margin-top:15px;
+	border: none;
+	border-bottom: 2px solid blue;
+	color: red;
+	font-size: 22px;	
+} 
+.input-wraper::placeholder {
+	color: green;
+	font-size: 18px;
+}
+.input-wraper:focus,
+.textarea-wraper:focus {
+	outline: none;
+}
+
+/*input[type=password] {
+	width: 100%;
+}*/
+
+.btn {
+	background-color: aqua;
+	border: none;
+	color: #fff;
+}
+.btn:hover {
+	background-color: red;
+}
